@@ -43,9 +43,3 @@ setuptools>=70.0.0 # Snyk vulnerability fix
 # tritonclient[all]~=2.24.0
 
 # Extras ----------------------------------------------------------------------
-# ipython  # interactive notebook
-# mss  # screenshots
-# albumentations>=1.0.3
-# pycocotools>=2.0.6  # COCO mAP
-opencv-python-headless==4.8.1.78
-urllib3>=2.6.0 ; python_version > '3.8' # not directly required, pinned by Snyk to avoid a vulnerability
