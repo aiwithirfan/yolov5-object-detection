@@ -1,7 +1,9 @@
+from ultralytics import YOLO
+import os
+os.environ["OPENCV_IO_ENABLE_OPENEXR"]="0"
+
 import streamlit as st
 from ultralytics import YOLO
-from PIL import Image
-import numpy as np
 
 st.title("Object Detection App")
 
